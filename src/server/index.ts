@@ -60,4 +60,4 @@ app.use(express.static(path.join(__dirname, '../remult-angular-todo')));
 app.get('/*', function (req, res) {
    res.sendFile(path.join(__dirname, '../remult-angular-todo', 'index.html'));
 });
-app.listen(process.env["PORT"] || 3002, () => console.log("Server started"));
+app.listen(process.env["PORT"] || 3002, () => console.log("Server started \n Listening on " + (process.env["PORT"] || 3002)));
