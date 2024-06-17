@@ -234,3 +234,7 @@ with a Node.js Express backend.
 
 The [documentation] covers the main features of Remult.
 However, it is still a work-in-progress.
+
+##Contributor
+
+Miguel Cano
