@@ -208,16 +208,16 @@ having the ability to handle any complex scenario by controlling the backend in
 numerous ways:
 
 - Backend computed (read-only) fields - from simple
-  [expressions](https://remult.dev/docs/ref_field.html#serverexpression) to
+  [expressions] to
   complex data lookups or even direct db access (SQL)
 - Custom side-effects with
-  [entity lifecycle hooks](https://remult.dev/docs/ref_entity.html#saving)
+  [entity lifecycle hooks]
   (before/after saving/deleting)
 - Backend only updatable fields (e.g. “last updated at”)
-- Many-to-one [relations](https://remult.dev/docs/entity-relations.html) with
-  [lazy/eager loading](https://remult.dev/docs/lazy-loading-of-related-entities.html)
+- Many-to-one [relations] with
+  [lazy/eager loading]
 - Roll-your-own type-safe endpoints with
-  [Backend Methods](https://remult.dev/docs/backendMethods.html)
+  [Backend Methods]
 - Roll-your-own low-level endpoints (Express, Fastify, koa, others…)
 
 ## Getting started
@@ -225,12 +225,12 @@ numerous ways:
 The best way to learn Remult is by following a tutorial of a simple Todo web app
 with a Node.js Express backend.
 
-- [Tutorial with React](https://remult.dev/tutorials/react/)
-- [Tutorial with Angular](https://remult.dev/tutorials/angular/)
-- [Tutorial with Vue](https://remult.dev/tutorials/vue/)
-- [Tutorial with Next.js](https://remult.dev/tutorials/react-next/)
+- [Tutorial with React]
+- [Tutorial with Angular]
+- [Tutorial with Vue]
+- [Tutorial with Next.js]
 
 ## Documentation
 
-The [documentation](https://remult.dev/docs) covers the main features of Remult.
+The [documentation] covers the main features of Remult.
 However, it is still a work-in-progress.
